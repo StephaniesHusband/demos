@@ -1,0 +1,134 @@
+@font-face {
+   font-family: 'SenseAware';
+   src:url('fonts/SenseAware.eot?-u2x9p8');
+   src:url('fonts/SenseAware.eot?#iefix-u2x9p8') format('embedded-opentype'),
+      url('fonts/SenseAware.woff?-u2x9p8') format('woff'),
+      url('fonts/SenseAware.ttf?-u2x9p8') format('truetype'),
+      url('fonts/SenseAware.svg?-u2x9p8#icomoon') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+   font-family: 'SenseAware';
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1em;
+   font-size: 1em;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+.icon-route:before {
+   content: "\e631";
+   padding-top: 15px;
+   font-size: 1.5em;
+}
+
+.icon-battery:before {
+   font-size: .95em;
+   color: #E5173F;
+	content: "\e62c";
+   display: inline-block;
+   transform: rotate(-90deg);
+}
+.icon-download:before {
+   content: "\e901";
+   font-size: 1.6em;
+}
+.icon-usage:before {
+   content: "\e99a";
+   font-size: 1.5em;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Play', sans-serif;
+   font-size: 1em;
+}
+.story-container {
+   display: flex;
+   justify-content: space-between;
+   z-index: 1;
+   margin: auto auto;
+   width: 70%;
+   height: 100%;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   flex-flow: row wrap;
+   align-content: flex-end;
+}
+.story {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   width: 200px;
+   height: 200px;
+   border: 1px solid gray;
+   margin: 10px;
+   text-align: center;
+   vertical-align: middle;
+   background-repeat: no-repeat;
+}
+.story > * {
+   padding: 5px;
+}
+
+.story h1 {
+   min-height: 55px;
+   background: #f9c667; /* Old browsers */
+   background: -moz-linear-gradient(top,  #f9c667 0%, #f79621 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #f9c667 0%,#f79621 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #f9c667 0%,#f79621 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
+}
+.done h1 {
+   background: none;
+}
+.story div {
+   font-size: .8em;
+}
+.done {
+   background: #eee;
+}
+.done:before {
+   padding-top: 5px;
+   color: darkgreen;
+   content: "\e610";
+   font-family: 'SenseAware';
+   speak: none;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1em;
+   font-size: 1.5em;
+}
+header {
+   padding: 10px;
+   display: flex;
+   font-size: 3em;
+   margin: auto;
+   flex-direction: row;
+   justify-content: space-between;
+}
+header img {
+   width: 125px;
+   height: 125px;
+}
+header div {
+   min-width: 33%;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.story:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
