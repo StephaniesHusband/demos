@@ -53,53 +53,54 @@
 }
 .story-container {
    display: flex;
-   justify-content: space-between;
-   z-index: 1;
    margin: auto auto;
    width: 70%;
    height: 100%;
-   flex-wrap: wrap;
-   align-items: center;
    justify-content: center;
    flex-flow: row wrap;
-   align-content: flex-end;
 }
 .story {
-   box-sizing: border-box;
    display: flex;
-   justify-content: space-between;
    flex-direction: column;
+   justify-content: space-between;
+   box-sizing: border-box;
    width: 200px;
    height: 200px;
    border: 1px solid gray;
-   margin: 10px;
+   margin: 5px;
    text-align: center;
-   vertical-align: middle;
-   background-repeat: no-repeat;
 }
 .story > * {
    padding: 5px;
 }
 
 .story h1 {
+   color: white;
    min-height: 55px;
-   background: #f9c667; /* Old browsers */
-   background: -moz-linear-gradient(top,  #f9c667 0%, #f79621 100%); /* FF3.6-15 */
-   background: -webkit-linear-gradient(top,  #f9c667 0%,#f79621 100%); /* Chrome10-25,Safari5.1-6 */
-   background: linear-gradient(to bottom,  #f9c667 0%,#f79621 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 ); /* IE6-9 */
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea2803+0,ff6600+52,c72200+100 */
+   background: rgb(234,40,3); /* Old browsers */
+   background: -moz-linear-gradient(top,  rgba(234,40,3,1) 0%, rgba(255,102,0,1) 52%, rgba(199,34,0,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  rgba(234,40,3,1) 0%,rgba(255,102,0,1) 52%,rgba(199,34,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  rgba(234,40,3,1) 0%,rgba(255,102,0,1) 52%,rgba(199,34,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2803', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+   text-shadow: 1px 1px 1px black;
 }
 .done h1 {
    background: none;
+   text-shadow: none;
+   color: black;
 }
 .story div {
    font-size: .8em;
+}
+.done div {
+   display: none;
 }
 .done {
    background: #eee;
 }
 .done:before {
-   padding-top: 5px;
+   padding-top: 10px;
    color: darkgreen;
    content: "\e610";
    font-family: 'SenseAware';
