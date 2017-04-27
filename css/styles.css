@@ -69,9 +69,14 @@
    border: 1px solid gray;
    margin: 5px;
    text-align: center;
+   cursor: pointer;
 }
 .story > * {
    padding: 5px;
+}
+
+.story a {
+   text-decoration: none;
 }
 
 .story h1 {

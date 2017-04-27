@@ -1,10 +1,6 @@
 $(document).ready(function() {
    //$("body").scrollTop(0);
 
-   $("a").click(function() {
-      $(this).parents(".story").addClass("done");
-   });
-
    /*
    var getRandom = function(min, max) {
       min = Math.ceil(min);
@@ -15,4 +11,10 @@ $(document).ready(function() {
 
    $(".theFrame").css("background-image", src);
    */
+
+   $(".story").click(function() {
+      $(this)
+         .addClass("done")
+         .find("a")[0].click();
+   });
 });
