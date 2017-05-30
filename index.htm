@@ -5,56 +5,54 @@
    <title>Rogue Squadron Sprint Demo</title>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
    <script src="index.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
    <link href="css/styles.css" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
 </head>
 <body>
    <header>
-      <div>1860 Sprint 3 Demo</div>
-      <img src="img/RogueSquadronLogo.png"/>
       <div>Rogue Squadron</div>
+      <img src="img/RogueSquadronLogo.png"/>
+      <div>1880 Sprint 2</div>
    </header>
    <div class="story-container">
       <div class="story">
-         <h1>Usage Metrics SAMS (119338)</h1>
-         <div>Stats about logins, journeys, etc.</div><span class="icon-usage"></span>
-         <a href="https://sams-base-sa.gslbtest.fedex.com/web/sams/index.html#!analysisCenter/usageMetrics" target="_blank">L1 SAMS</a>
+         <h1>SAMS - User Metrics<br>by Email/User</h1>
+         <div>See usage metrics breakdown by user</div><span class="icon-metrics"></span>
+         <a
+            href="https://roguesquadron.senseaware.com:2443/web/sams/index.html#!analysisCenter/usageMetrics"
+            target="_blank">SAMS Usage Metrics (L1)</a>
       </div>
       <div class="story">
-         <h1>NIST File Display (79359)</h1>
-         <div>Download NIST doc</div><span class="icon-download"></span>
-         <a href="https://sa.test.senseaware.com/web/wsawui/#!admin/manageHardware" target="_blank">L6 as ScottC (AC100074)</a>
+         <h1>Manage Users/Members Column Changes</h1>
+         <div>Split out first/last name</div>
+         <a
+            href="http://roguesquadron.senseaware.com:2443/web/sams/development.html?testData=success1#!samsManagement/manageUsers"
+            target="_blank">Manage Users</a>
+         <a
+            href="http://roguesquadron.senseaware.com:2443/web/sams/development.html?testData=success1#!dataEntry/manageMembers"
+            target="_blank">Manage Members</a>
       </div>
       <div class="story">
-         <h1>Add Delete to Edit Pending (114392)</h1>
-         <div>Ability to delete currently edited pending journey</div>
-         <a href="https://sa.test.senseaware.com/web/wsawui/#!setup/dashboard" target="_blank">L6</a>
+         <h1>SAMS New Main Nav</h1>
+         <div>Ability to nav to all parts of SAMS</div>
+         <a
+            href="http://roguesquadron.senseaware.com:2443/web/sams/development.html#!dashboard/index"
+            target="_blank">Dashboard</a>
       </div>
       <div class="story">
-         <h1>Reorder Waypoints (113517)</h1>
-         <div>Ability to reorder waypoints</div><span class="icon-route"></span>
-         <a href="https://sa.test.senseaware.com/web/wsawui/#!create/trigger" target="_blank">L6</a>
-      </div>
-      <div class="story">
-         <h1>Update Address Field in Manage My Org (108821)</h1>
-         <div>Single address field</div>
-         <a href="https://sa.test.senseaware.com/web/wsawui/#!admin/organization" target="_blank">L6</a>
-      </div>
-      <div class="story">
-         <h1>Display Result(s) text mod (134425)</h1>
-         <div>Consistent UX for Result(s), etc.</div>
-         <a href="https://sa.test.senseaware.com/web/wsawui/#!monitor/dashboard" target="_blank">L6</a>
-      </div>
-      <div class="story">
-         <h1>Battery Alert Event on Non-Journey Pt 2 (123602)</h1>
-         <div>Device event in Activity Log</div>
-         <a href="https://sabase.idev.fedex.com:2443/web/wsawui/index.html#!details/device/11802" target="_blank">L1~Vikas (SuperUser Org~QD100001)</a>
-      </div>
-      <div class="story">
-         <h1>Remove Battery Alert Icons (134707)</h1>
-         <div>Remove Extra Battery Alert Icons</div><span class="icon-battery"></span>
-         <a href="https://sabase.idev.fedex.com:2443/web/wsawui/index.html#!details/device/11802" target="_blank">L1~Vikas (SuperUser Org~QD100001)</a>
+         <h1>Change/Reset Password</h1>
+         <div>Ability to change your password while still logged in</div>
+         <a
+            href="http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!preferences/profile"
+            target="_blank">Reset Password</a>
+         <a
+            href="http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=01011,success1#!preferences/profile"
+            target="_blank">Must enter current password</a>
       </div>
    </div>
+   <footer>
+      the force is strong with this team
+   </footer>
 </body>
 </html>
