@@ -13,18 +13,6 @@ $(document).ready(function() {
    */
 
    $(".story").one("click", function() {
-      var me = this;
-
-      $(this).hide("explode", {
-         pieces: 100,
-         complete: function() {
-            $(me)
-               .show("explode", { pieces: 100 })
-               .addClass("done");
-
-            // Can't trigger the click event as it will create loop
-            window.open($(me).find("a").first().attr("href"), "_blank");
-         }
-      });
+      $(this).addClass("done");
    });
 });

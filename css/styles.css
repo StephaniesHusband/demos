@@ -168,9 +168,27 @@ footer {
    bottom: 0;
    left: 0;
    right: 0;
-   margin: auto;
 }
 
 .story:hover {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.story ul {
+   display: inline-block;
+   width: 75%;
+   text-align: left;
+   margin-left: 30px;
+   font-size: .85em;
+}
+
+.img--yoda {
+   background: url("../img/yoda.jpg") no-repeat;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   height: 159px;
+   width: 230px;
+   padding: 0;
+   margin: 0;
 }
