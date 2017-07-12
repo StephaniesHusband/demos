@@ -197,3 +197,42 @@ footer {
    padding: 0;
    margin: 0;
 }
+
+.img--complete {
+   background: url("../img/complete.gif") no-repeat;
+   position: fixed;
+   bottom: 114px;
+   right: 40px;
+   height: 164px;
+   width: 649px;
+   padding: 0;
+   margin: 0;
+}
+
+.complete {
+   width: 120px;
+   height: 54px;
+   padding: 10px;
+   color: white;
+   background: black;
+   position: fixed;
+   right: 256px;
+   bottom: 100px;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+   font-family: "StarJedi";
+   display: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.complete:after {
+   content:"";
+   position: absolute;
+   left: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-left: 26px solid black;
+   border-bottom: 13px solid transparent;
+}

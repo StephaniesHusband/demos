@@ -14,4 +14,8 @@ $(document).ready(function() {
 
       ev.stopPropagation();
    });
+
+   $(".img--yoda").click(function() {
+      $(".complete").toggle();
+   });
 });
