@@ -125,6 +125,7 @@
 .done {
    background: #eee;
 }
+
 .done:before {
    padding-top: 10px;
    color: darkgreen;
@@ -137,6 +138,10 @@
    text-transform: none;
    line-height: 1em;
    font-size: 1.5em;
+}
+a.done:before {
+   font-size: .75em;
+   margin-right: 3px;
 }
 
 header {

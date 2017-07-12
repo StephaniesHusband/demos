@@ -12,7 +12,13 @@ $(document).ready(function() {
    $(".theFrame").css("background-image", src);
    */
 
-   $(".story").one("click", function() {
+   $(".story a").on("click", function() {
       $(this).addClass("done");
+
+      var $story = $(this).parents(".story");
+
+      if ($story.find("a:not(.done)").length === 0) {
+         $story.addClass("done");
+      }
    });
 });
