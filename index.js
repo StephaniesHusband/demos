@@ -3,7 +3,7 @@ $(document).ready(function() {
       $(this).addClass("done").find("a").addClass("done");
    });
 
-   $(".story a").on("click", function(ev) {
+   $(".story a, .story li").on("click", function(ev) {
       $(this).addClass("done");
 
       var $story = $(this).parents(".story");

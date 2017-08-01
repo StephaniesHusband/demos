@@ -76,10 +76,8 @@
 .story {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
    box-sizing: border-box;
    width: 200px;
-   height: 200px;
    border: 1px solid gray;
    margin: 5px;
    text-align: center;
@@ -88,16 +86,6 @@
 .story > * {
    padding: 5px;
 }
-
-.story a {
-   text-decoration: none;
-   color: rgba(234,40,3,1);
-}
-
-.done a {
-   color: black;
-}
-
 .story h1 {
    color: white;
    min-height: 48px;
@@ -111,21 +99,44 @@
    text-shadow: 1px 1px 1px black;
    vertical-align: middle;
 }
+.story div {
+   font-size: .8em;
+}
+a {
+   text-decoration: none;
+   color: rgba(234,40,3,1);
+}
+.story:hover {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   width: 95%;
+   text-align: left;
+   font-size: .85em;
+}
+li {
+   padding-left: 16px;
+}
+li:before {
+   content: "•";
+   padding-right: 8px;
+}
+
 .done h1 {
    background: none;
    text-shadow: none;
    color: black;
-}
-.story div {
-   font-size: .8em;
 }
 .done div {
    display: none;
 }
 .done {
    background: #eee;
+   color: black;
 }
-
 .done:before {
    padding-top: 10px;
    color: darkgreen;
@@ -142,6 +153,10 @@
 a.done:before {
    font-size: .75em;
    margin-right: 3px;
+}
+li.done:before {
+   font-size: .75em;
+   content: "\e610";
 }
 
 header {
@@ -173,18 +188,6 @@ footer {
    bottom: 0;
    left: 0;
    right: 0;
-}
-
-.story:hover {
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.story ul {
-   display: inline-block;
-   width: 75%;
-   text-align: left;
-   margin-left: 30px;
-   font-size: .85em;
 }
 
 .img--yoda {
