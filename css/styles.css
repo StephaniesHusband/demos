@@ -89,7 +89,10 @@
 .story h1 {
    color: white;
    min-height: 48px;
+   line-height: 48px;
+   vertical-align: middle;
    padding-top: 10px;
+   font-size: 1.5em;
    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ea2803+0,ff6600+52,c72200+100 */
    background: rgb(234,40,3); /* Old browsers */
    background: -moz-linear-gradient(top,  rgba(234,40,3,1) 0%, rgba(255,102,0,1) 52%, rgba(199,34,0,1) 100%); /* FF3.6-15 */
@@ -97,7 +100,6 @@
    background: linear-gradient(to bottom,  rgba(234,40,3,1) 0%,rgba(255,102,0,1) 52%,rgba(199,34,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea2803', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
    text-shadow: 1px 1px 1px black;
-   vertical-align: middle;
 }
 .story div {
    font-size: .8em;
