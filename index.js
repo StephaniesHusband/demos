@@ -1,6 +1,6 @@
 $(document).ready(function() {
-   $(".story").one("click", function() {
-      $(this).addClass("done").find("a").addClass("done");
+   $(".story").on("click", function() {
+      $(this).toggleClass("done").find("a").toggleClass("done");
    });
 
    $(".story a, .story li").on("click", function(ev) {
