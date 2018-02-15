@@ -1,0 +1,51 @@
+{
+   "team": "Rogue Squadron",
+   "release": "1980 Sprint 1",
+   "stories": [
+      {
+         "number": "143025",
+         "description": "Submit Help Ticket",
+         "links": [
+            {
+               "url": "todo",
+               "target": "_blank",
+               "description": "todo"
+            },
+            {
+               "url": "todo2",
+               "description": "todo2"
+            }
+         ]
+      },
+      {
+         "number": "238168",
+         "description": "Device Health Updates",
+         "links": [
+            {
+               "url": "todo",
+               "description": "todo"
+            }
+         ]
+      },
+      {
+         "number": "238169",
+         "description": "story 3",
+         "links": [
+            {
+               "url": "todo",
+               "description": "todo"
+            }
+         ]
+      },
+      {
+         "number": "238170",
+         "description": "story 4",
+         "links": [
+            {
+               "url": "todo",
+               "description": "todo"
+            }
+         ]
+      }
+   ]
+}
