@@ -3,53 +3,40 @@
 <head>
    <meta charset="UTF-8">
    <title>Rogue Squadron Sprint Demo</title>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-   <script src="index.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-   <link href="css/styles.css" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-   <header>
-      <div>Rogue Squadron</div>
-      <img src="img/RogueSquadronLogo.png"/>
-      <div>1920 Sprint 3</div>
-   </header>
-   <div class="story-container">
-      <div class="story">
-         <h1>Story 143755</h1>
-         <div>Monitor Settings - Fixed Column Settings</div>
-         <a href="http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!monitor/dashboard" target="_blank">
-            Monitor Dashboard
-         </a>
+   <template id="story-card">
+      <div class="story" style="width: 400px;" :class="{ done: isDone }" @click="markDone">
+         <h1>{{story.number}}</h1>
+         <div>{{story.description}}</div>
+         <ul v-for="(link,index) in story.links" :link="link" :index="index" :key="index">
+            <li>
+               <a :href="link.url" :target="link.target">{{link.description}}</a>
+            </li>
+         </ul>
       </div>
-      <div class="story">
-         <h1>Story 163002</h1>
-         <div>Custom Device Summary Report</div>
-         <a href="http://sabase.idev.fedex.com:2443/web/wsawui/index.html?#!admin/reports" target="_blank">
-            Manage Hardware
-         </a>
+   </template>
+
+   <div id="app">
+      <header>
+         <div>{{team}}</div>
+         <img src="img/RogueSquadronLogo.png"/>
+         <div>{{release}}</div>
+      </header>
+      <div class="story-container">
+         <story-card v-for="story in stories" :story="story" :key="story.number"></story-card>
       </div>
-      <div class="story">
-         <h1>Story 169050</h1>
-         <div>SAMS: Template Override</div>
-         <a href="http://roguesquadron.senseaware.com:2443/web/sams/development.html#!deviceManagement/templateOverride" target="_blank">
-            Template Override
-         </a>
-      </div>
-      <div class="story">
-         <h1>Story 177377</h1>
-         <div>SAMS: Customize Dashboard</div>
-         <a href="http://roguesquadron.senseaware.com:2443/web/sams/development.html#!dashboard" target="_blank">
-            SAMS Dashboard 
-         </a>
-      </div>
+      <footer>
+         the force is strong with this team
+      </footer>
+      <p class="complete">Complete,<br>the demo is.</p>
+      <div class="img-yoda"></div>
    </div>
-   <footer>
-      the force is strong with this team
-   </footer>
-   <p class="complete">Complete,<br>the demo is.</p>
-   <div class="img--yoda"></div>
+
+   <script src="https://unpkg.com/jquery"></script>
+   <script src="https://unpkg.com/vue"></script>
+   <script src="demo.js"></script>
 </body>
 </html>

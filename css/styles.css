@@ -1,15 +1,4 @@
 @font-face {
-   font-family: 'SenseAware';
-   src:url('fonts/SenseAware.eot?-u2x9p8');
-   src:url('fonts/SenseAware.eot?#iefix-u2x9p8') format('embedded-opentype'),
-       url('fonts/SenseAware.woff?-u2x9p8') format('woff'),
-       url('fonts/SenseAware.ttf?-u2x9p8') format('truetype'),
-       url('fonts/SenseAware.svg?-u2x9p8#icomoon') format('svg');
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
    font-family: "StarJedi";
    src: url('fonts/starjedi.woff2') format('woff2'),
         url('fonts/starjedi.woff') format('woff'),
@@ -23,46 +12,6 @@
    padding: 0;
    font-family: 'Play', sans-serif;
    font-size: 1em;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-   font-family: 'SenseAware';
-   speak: none;
-   font-style: normal;
-   font-weight: normal;
-   font-variant: normal;
-   text-transform: none;
-   line-height: 1em;
-   font-size: 1em;
-
-   /* Better Font Rendering =========== */
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-}
-.icon-route:before {
-   content: "\e631";
-   padding-top: 15px;
-   font-size: 1.5em;
-}
-
-.icon-battery:before {
-   font-size: .95em;
-   color: #E5173F;
-	content: "\e62c";
-   display: inline-block;
-   transform: rotate(-90deg);
-}
-.icon-download:before {
-   content: "\e901";
-   font-size: 1.6em;
-}
-.icon-usage:before {
-   content: "\e99a";
-   font-size: 1.5em;
-}
-.icon-key:before {
-   content: "\e98e";
-   font-size: 1.5em;
 }
 
 .story-container {
@@ -145,15 +94,15 @@ li:before {
 .done:before {
    padding-top: 10px;
    color: darkgreen;
-   content: "\e610";
-   font-family: 'SenseAware';
+   font-family: "Wingdings";
+   content: "\00fc";
    speak: none;
    font-style: normal;
    font-weight: normal;
    font-variant: normal;
    text-transform: none;
    line-height: 1em;
-   font-size: 1.5em;
+   font-size: 2em;
 }
 a.done:before {
    font-size: .75em;
@@ -161,7 +110,8 @@ a.done:before {
 }
 li.done:before {
    font-size: .75em;
-   content: "\e610";
+   font-family: "Wingdings";
+   content: "\00fc";
 }
 
 header {
@@ -195,24 +145,13 @@ footer {
    right: 0;
 }
 
-.img--yoda {
+.img-yoda {
    background: url("../img/yoda.jpg") no-repeat;
    position: fixed;
    bottom: 0;
    right: 0;
    height: 159px;
    width: 230px;
-   padding: 0;
-   margin: 0;
-}
-
-.img--complete {
-   background: url("../img/complete.gif") no-repeat;
-   position: fixed;
-   bottom: 114px;
-   right: 40px;
-   height: 164px;
-   width: 649px;
    padding: 0;
    margin: 0;
 }
