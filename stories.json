@@ -3,41 +3,58 @@
    "release": "2000 Sprint 1",
    "stories": [
       {
+         "number": "273460 & 217890 & 274429",
+         "description": "Monitor Pagination/Sorting/Query Mods",
+         "notes": "<br><br>* Over a mobile connection",
+         "links": [
+            {
+               "url": "https://sa.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
+               "target": "LP",
+               "description": "Pagination in Production - Old Query*"
+            },
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
+               "target": "L6",
+               "description": "Pagination on L6 - New Query*"
+            },
+            {
+               "url": "https://sa.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
+               "target": "LP",
+               "description": "Sort in Production - Old Query*"
+            },
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
+               "target": "L6",
+               "description": "Sort on L6 - New Query*"
+            }
+         ]
+      },
+      {
          "number": "269645",
          "description": "Caching Setup & Create Dashboard",
+         "notes": "<br><br><br>* TTL = 20 minutes",
          "links": [
             {
                "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!setup/dashboard",
                "target": "L4",
-               "description": "Cache Journey Templates*, Pending Journeys*, Triggers*",
-               "notes": "<br>* TTL = 20 minutes"
+               "description": "Cache Journey Templates*, Pending Journeys*, Triggers*"
+            },
+            {
+               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!admin/organization",
+               "target": "L4",
+               "description": "Navigate to any another screen (e.g., Manage my Org)"
             }
          ]
       },
       {
          "number": "269648",
          "description": "Caching Create Journey",
+         "notes": "<br>* Possibly already cached - TTL 20 minutes<br>** TTL 2 minutes",
          "links": [
             {
                "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!create/journey",
                "target": "L4",
-               "description": "Cache Journey Templates*, Pending Journeys*, Devices**",
-               "notes": "<br>* Possibly already cached - TTL 20 minutes<br>** TTL 2 minutes"
-            }
-         ]
-      },
-      {
-         "number": "273460 & 217890 & 274429",
-         "description": "Monitor Pagination/Sorting/Query Mods",
-         "links": [
-            {
-               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html?#!monitor/dashboard/list",
-               "target": "L4",
-               "description": "Query modified for faster pagination & sorts"
-            },
-            {
-               "url": "https://sastress.idev.fedex.com/web/wsawuiindex.html?#!monitor/dashboard",
-               "description": "Removed Queued Journeys module"
+               "description": "Cache Journey Templates*, Pending Journeys*, Devices**"
             }
          ]
       },

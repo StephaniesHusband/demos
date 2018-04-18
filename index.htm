@@ -14,9 +14,9 @@
          <ul v-for="(link,index) in story.links" :link="link" :index="index" :key="index">
             <li>
                <a :href="link.url" :target="link.target" v-html="link.description"></a>
-               <div v-html="link.notes"></div>
             </li>
          </ul>
+         <div v-html="story.notes"></div>
       </div>
    </template>
 
