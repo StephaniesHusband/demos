@@ -31,14 +31,16 @@
    margin: 5px;
    text-align: center;
    cursor: pointer;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 }
 .story > * {
    padding: 5px;
 }
 .story h1 {
    color: white;
-   min-height: 48px;
-   line-height: 48px;
+   min-height: 30px;
+   line-height: 30px;
    vertical-align: middle;
    padding-top: 10px;
    font-size: 1.5em;
@@ -52,6 +54,9 @@
 }
 .story div {
    font-size: .8em;
+}
+.story .description {
+   font-size: 1.5em;
 }
 a {
    text-decoration: none;

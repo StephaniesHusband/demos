@@ -1,49 +1,54 @@
 {
    "team": "Rogue Squadron",
-   "release": "1980 Sprint 1",
+   "release": "2000 Sprint 1",
    "stories": [
       {
-         "number": "143025",
-         "description": "Submit Help Ticket",
+         "number": "269645",
+         "description": "Caching Setup & Create Dashboard",
          "links": [
             {
-               "url": "todo",
-               "target": "_blank",
-               "description": "todo"
+               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!setup/dashboard",
+               "target": "L4",
+               "description": "Cache Journey Templates*, Pending Journeys*, Triggers*",
+               "notes": "<br>* TTL = 20 minutes"
+            }
+         ]
+      },
+      {
+         "number": "269648",
+         "description": "Caching Create Journey",
+         "links": [
+            {
+               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!create/journey",
+               "target": "L4",
+               "description": "Cache Journey Templates*, Pending Journeys*, Devices**",
+               "notes": "<br>* Possibly already cached - TTL 20 minutes<br>** TTL 2 minutes"
+            }
+         ]
+      },
+      {
+         "number": "273460 & 217890 & 274429",
+         "description": "Monitor Pagination/Sorting/Query Mods",
+         "links": [
+            {
+               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html?#!monitor/dashboard/list",
+               "target": "L4",
+               "description": "Query modified for faster pagination & sorts"
             },
             {
-               "url": "todo2",
-               "description": "todo2"
+               "url": "https://sastress.idev.fedex.com/web/wsawuiindex.html?#!monitor/dashboard",
+               "description": "Removed Queued Journeys module"
             }
          ]
       },
       {
-         "number": "238168",
-         "description": "Device Health Updates",
+         "number": "271890",
+         "description": "RMA Confirmation Msg",
          "links": [
             {
-               "url": "todo",
-               "description": "todo"
-            }
-         ]
-      },
-      {
-         "number": "238169",
-         "description": "story 3",
-         "links": [
-            {
-               "url": "todo",
-               "description": "todo"
-            }
-         ]
-      },
-      {
-         "number": "238170",
-         "description": "story 4",
-         "links": [
-            {
-               "url": "todo",
-               "description": "todo"
+               "url": "https://sastress.idev.fedex.com/web/wsawui/development.html?testData=success1#!admin/manageHardware",
+               "target": "Local",
+               "description": "RMA Confirmation Message"
             }
          ]
       }

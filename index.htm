@@ -10,10 +10,11 @@
    <template id="story-card">
       <div class="story" style="width: 400px;" :class="{ done: isDone }" @click="markDone">
          <h1>{{story.number}}</h1>
-         <div>{{story.description}}</div>
+         <div class="description">{{story.description}}</div>
          <ul v-for="(link,index) in story.links" :link="link" :index="index" :key="index">
             <li>
-               <a :href="link.url" :target="link.target">{{link.description}}</a>
+               <a :href="link.url" :target="link.target" v-html="link.description"></a>
+               <div v-html="link.notes"></div>
             </li>
          </ul>
       </div>
@@ -36,6 +37,7 @@
    </div>
 
    <script src="https://unpkg.com/jquery"></script>
+   <script src="https://unpkg.com/jquery-migrate"></script>
    <script src="https://unpkg.com/vue"></script>
    <script src="demo.js"></script>
 </body>
