@@ -1,71 +1,52 @@
 {
    "team": "Rogue Squadron",
-   "release": "2000 Sprint 1",
+   "release": "2020 Sprint 1",
    "stories": [
       {
-         "number": "273460 & 217890 & 274429",
-         "description": "Monitor Pagination/Sorting/Query Mods",
-         "notes": "<br><br>* Over a mobile connection",
+         "number": "233022",
+         "description": "submit rma",
+         "notes": "New look UX for submitting multiple RMA that will support keyboard scanner",
          "links": [
             {
-               "url": "https://sa.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
-               "target": "LP",
-               "description": "Pagination in Production - Old Query*"
-            },
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
-               "target": "L6",
-               "description": "Pagination on L6 - New Query*"
-            },
-            {
-               "url": "https://sa.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
-               "target": "LP",
-               "description": "Sort in Production - Old Query*"
-            },
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/index.html?#!monitor/dashboard",
-               "target": "L6",
-               "description": "Sort on L6 - New Query*"
+               "url": "https://sabase.idev.fedex.com:2443/web/wsawui/index.html#!admin/manageHardware",
+               "target": "L1",
+               "description": "Manage Hardware"
             }
          ]
       },
       {
-         "number": "269645",
-         "description": "Caching Setup & Create Dashboard",
-         "notes": "<br><br><br>* TTL = 20 minutes",
+         "number": "280136",
+         "description": "light detected - no alert",
+         "notes": "A indication that light was detected even if no alert is set for that situation",
          "links": [
             {
-               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!setup/dashboard",
-               "target": "L4",
-               "description": "Cache Journey Templates*, Pending Journeys*, Triggers*"
-            },
-            {
-               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!admin/organization",
-               "target": "L4",
-               "description": "Navigate to any another screen (e.g., Manage my Org)"
-            }
-         ]
-      },
-      {
-         "number": "269648",
-         "description": "Caching Create Journey",
-         "notes": "<br>* Possibly already cached - TTL 20 minutes<br>** TTL 2 minutes",
-         "links": [
-            {
-               "url": "https://sastress.idev.fedex.com/web/wsawui/index.html#!create/journey",
-               "target": "L4",
-               "description": "Cache Journey Templates*, Pending Journeys*, Devices**"
-            }
-         ]
-      },
-      {
-         "number": "271890",
-         "description": "RMA Confirmation Msg",
-         "links": [
-            {
-               "url": "https://sastress.idev.fedex.com/web/wsawui/development.html?testData=success1#!admin/manageHardware",
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=success1#!details/journey/100",
                "target": "Local",
-               "description": "RMA Confirmation Message"
+               "description": "Journey Details"
+            }
+         ]
+      },
+      {
+         "number": "289413",
+         "description": "traffic layer",
+         "notes": "Google-provided Traffic Layer on Details page",
+         "links": [
+            {
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=success1#!details/journey/100",
+               "target": "Local",
+               "description": "Setup/Create Dashboard"
+            }
+         ]
+      },
+      {
+         "number": "292638",
+         "description": "local wait indicators",
+         "notes": "Each module will display its own wait indicator",
+         "links": [
+            {
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=success1#!setup/dashboard",
+               "target": "Local",
+               "description": "Setup/Create Dashboard"
             }
          ]
       }
