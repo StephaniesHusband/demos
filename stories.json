@@ -1,52 +1,40 @@
 {
    "team": "Rogue Squadron",
-   "release": "2020 Sprint 1",
+   "release": "2040 Sprint 1",
    "stories": [
       {
-         "number": "233022",
-         "description": "submit rma",
-         "notes": "New look UX for submitting multiple RMA that will support keyboard scanner",
+         "number": "310548",
+         "description": "increase api name",
+         "notes": "...from 9 to 25",
          "links": [
             {
-               "url": "https://sabase.idev.fedex.com:2443/web/wsawui/index.html#!admin/manageHardware",
-               "target": "L1",
-               "description": "Manage Hardware"
+               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!samsManagement/manageApiAccess",
+               "target": "Local_SAMS_L1",
+               "description": "API Access"
             }
          ]
       },
       {
-         "number": "280136",
-         "description": "light detected - no alert",
-         "notes": "A indication that light was detected even if no alert is set for that situation",
+         "number": "309505",
+         "description": "modify filters/sort",
+         "notes": "Continued improvement of filter dropdown and sorting",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=success1#!details/journey/100",
-               "target": "Local",
-               "description": "Journey Details"
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!monitor/dashboard",
+               "target": "Local_APP_L1",
+               "description": "Monitor"
             }
          ]
       },
       {
-         "number": "289413",
-         "description": "traffic layer",
-         "notes": "Google-provided Traffic Layer on Details page",
+         "number": "315574, 249147, 258716",
+         "description": "shipment analytics",
+         "notes": "Export; Journey/Device/Non-Journey",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=success1#!details/journey/100",
-               "target": "Local",
-               "description": "Setup/Create Dashboard"
-            }
-         ]
-      },
-      {
-         "number": "292638",
-         "description": "local wait indicators",
-         "notes": "Each module will display its own wait indicator",
-         "links": [
-            {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html?testData=success1#!setup/dashboard",
-               "target": "Local",
-               "description": "Setup/Create Dashboard"
+               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/shipmentAnalytics",
+               "target": "Local_SAMS_L1",
+               "description": "Shipment Analytics"
             }
          ]
       }
