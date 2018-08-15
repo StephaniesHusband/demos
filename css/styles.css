@@ -61,8 +61,6 @@
    font-size: .8em;
 }
 .story .description {
-   font-size: 1.5em;
-   font-family: "StarJedi";
 }
 a {
    text-decoration: none;
@@ -80,21 +78,13 @@ ul {
    padding: 0;
    margin: 0;
    width: 95%;
-   text-align: left;
+   text-align: center;
    font-size: .85em;
 }
 li {
    padding-left: 16px;
 }
 
-.done h1 {
-   background: none;
-   text-shadow: none;
-   color: black;
-}
-.done div {
-   display: none;
-}
 .done {
    background: #eee;
    color: black;
@@ -120,6 +110,15 @@ li.done:before {
    font-size: .75em;
    font-family: "Wingdings";
    content: "\00fc";
+}
+.done h1 {
+   background: none;
+   text-shadow: none;
+   color: black;
+}
+.done ul,
+.done div {
+   display: none;
 }
 
 header {

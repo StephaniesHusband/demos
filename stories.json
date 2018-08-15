@@ -1,50 +1,64 @@
 {
    "team": "Rogue Squadron",
-   "release": "2040 Sprint 2",
+   "release": "2040 Sprint 3",
    "stories": [
       {
-         "number": "317334",
-         "description": "att sim data",
-         "notes": "Get SIM data files from AT&T",
+         "number": "313637",
+         "description": "revert it!",
+         "notes": "Replace Cancel with Revert button on Filter Dropdown",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!dashboard",
-               "target": "Local_SAMS_L1",
-               "description": "Dashboard"
-            },
-            {
-               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!deviceManagement/networkProviders",
-               "target": "SAMS_L1",
-               "description": "Network Providers"
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!dashboard",
+               "target": "Local_APP_L1",
+               "description": "Monitor Dashboard"
             }
          ]
       },
       {
-         "number": "312075",
-         "description": "Device Health - More Fields",
-         "notes": "More device health data",
+         "number": "336128",
+         "description": "click out cancels!",
+         "notes": "Clicking out of a Filter Dropdown cancels the operation.",
+         "links": [
+            {
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!dashboard",
+               "target": "Local_APP_L1",
+               "description": "Monitor Dashboard"
+            }
+         ]
+      },
+      {
+         "number": "309921",
+         "description": "where's my reading!",
+         "notes": "Change the current reading marker on the map when hovering over the chart.",
+         "links": [
+            {
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!details/journey/101993",
+               "target": "Local_APP_L1",
+               "description": "Journey Details"
+            }
+         ]
+      },
+      {
+         "number": "315737",
+         "description": "device dump!",
+         "notes": "Display all device readings for a given date range and export.",
          "links": [
             {
                "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/deviceHealth",
                "target": "Local_SAMS_L1",
-               "description": "Device Health"
+               "description": "Analysis Center: Device Health"
             }
          ]
       },
       {
-         "number": "317890",
-         "description": "Map Transparency",
-         "notes": "Make map items transparent to view what's behind them",
+         "number": "322467",
+         "description": "bake some more pies!",
+         "notes": "Display pie charts of various journey stats",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!details/journey/101993",
-               "target": "WSAW_L1",
-               "description": "L1 Journey Details"
-            },
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/index.html#!details/journey/318773",
-               "target": "WSAW_L6",
-               "description": "L6 Journey Details"
+               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/shipmentAnalytics",
+               "target": "Local_APP_L1",
+               "description": "Analysis Center: Shipment Analytics"
             }
          ]
       }
