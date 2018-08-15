@@ -1,40 +1,50 @@
 {
    "team": "Rogue Squadron",
-   "release": "2040 Sprint 1",
+   "release": "2040 Sprint 2",
    "stories": [
       {
-         "number": "310548",
-         "description": "increase api name",
-         "notes": "...from 9 to 25",
+         "number": "317334",
+         "description": "att sim data",
+         "notes": "Get SIM data files from AT&T",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!samsManagement/manageApiAccess",
+               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!dashboard",
                "target": "Local_SAMS_L1",
-               "description": "API Access"
+               "description": "Dashboard"
+            },
+            {
+               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!deviceManagement/networkProviders",
+               "target": "SAMS_L1",
+               "description": "Network Providers"
             }
          ]
       },
       {
-         "number": "309505",
-         "description": "modify filters/sort",
-         "notes": "Continued improvement of filter dropdown and sorting",
+         "number": "312075",
+         "description": "Device Health - More Fields",
+         "notes": "More device health data",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!monitor/dashboard",
-               "target": "Local_APP_L1",
-               "description": "Monitor"
+               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/deviceHealth",
+               "target": "Local_SAMS_L1",
+               "description": "Device Health"
             }
          ]
       },
       {
-         "number": "315574, 249147, 258716",
-         "description": "shipment analytics",
-         "notes": "Export; Journey/Device/Non-Journey",
+         "number": "317890",
+         "description": "Map Transparency",
+         "notes": "Make map items transparent to view what's behind them",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/shipmentAnalytics",
-               "target": "Local_SAMS_L1",
-               "description": "Shipment Analytics"
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!details/journey/101993",
+               "target": "WSAW_L1",
+               "description": "L1 Journey Details"
+            },
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/index.html#!details/journey/318773",
+               "target": "WSAW_L6",
+               "description": "L6 Journey Details"
             }
          ]
       }
