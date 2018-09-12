@@ -1,64 +1,67 @@
 {
    "team": "Rogue Squadron",
-   "release": "2040 Sprint 3",
+   "release": "2060 Sprint 1",
    "stories": [
       {
-         "number": "313637",
-         "description": "revert it!",
-         "notes": "Replace Cancel with Revert button on Filter Dropdown",
+         "number": "236570 + 330393",
+         "description": "Analytics!",
+         "notes": "Newly renamed and laid out Analytics Page w/New Metrics",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!dashboard",
-               "target": "Local_APP_L1",
-               "description": "Monitor Dashboard"
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
+               "target": "SAMS_L6",
+               "description": "Analytics Page"
+            },
+            {
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
+               "target": "SAMS_L6",
+               "description": "API Metrics"
+            },
+            {
+               "url": "https://sams-sa.gslb.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
+               "target": "SAMS_LP",
+               "description": "Production Analytics"
             }
          ]
       },
       {
-         "number": "336128",
-         "description": "click out cancels!",
-         "notes": "Clicking out of a Filter Dropdown cancels the operation.",
+         "number": "344073",
+         "description": "Device Dump!",
+         "notes": "Consolidate device readings information",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!dashboard",
-               "target": "Local_APP_L1",
-               "description": "Monitor Dashboard"
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
+               "target": "SAMS_L6",
+               "description": "Device Health"
             }
          ]
       },
       {
-         "number": "309921",
-         "description": "where's my reading!",
-         "notes": "Change the current reading marker on the map when hovering over the chart.",
+         "number": "334558",
+         "description": "NIST Download Links",
+         "notes": "Download icon next to NIST download links",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!details/journey/101993",
-               "target": "Local_APP_L1",
-               "description": "Journey Details"
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!admin/manageHardware",
+               "target": "APP_L6",
+               "description": "Manage H/W - List & Details"
+            },
+            {
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!deviceManagement/manageDevices",
+               "target": "SAMS_L6",
+               "description": "Manage Devices (filter = SenseAwareIT + All Devices)"
             }
          ]
       },
       {
-         "number": "315737",
-         "description": "device dump!",
-         "notes": "Display all device readings for a given date range and export.",
+         "number": "323921",
+         "description": "Global Search!",
+         "notes": "Search for multiple items in global search",
          "links": [
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/deviceHealth",
-               "target": "Local_SAMS_L1",
-               "description": "Analysis Center: Device Health"
-            }
-         ]
-      },
-      {
-         "number": "322467",
-         "description": "bake some more pies!",
-         "notes": "Display pie charts of various journey stats",
-         "links": [
-            {
-               "url": "http://roguesquadron.senseaware.com:2443/web/sams/development.html#!analysisCenter/shipmentAnalytics",
-               "target": "Local_APP_L1",
-               "description": "Analysis Center: Shipment Analytics"
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!monitor/dashboard",
+               "target": "APP_L6",
+               "description": "Global Search"
             }
          ]
       }

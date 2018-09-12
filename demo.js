@@ -9,6 +9,11 @@
             isDone: false,
          };
       },
+      computed: {
+         lowerCaseDescription() {
+            return this.story.description.toLowerCase();
+         }
+      },
       methods: {
          markDone: function() {
             this.isDone = !this.isDone;
