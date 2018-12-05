@@ -42,7 +42,7 @@
       },
       {
          "number": "384869",
-         "description": "Piston App - Phase 3",
+         "description": "Piston App - Phase 2/3",
          "notes": "<ul><li>Device/CONS/ULD Validation</li><li>Device/Template caching/refresh</li><li>Skip</li></ul>",
          "links": [
             {
