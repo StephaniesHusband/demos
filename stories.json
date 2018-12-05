@@ -1,69 +1,60 @@
 {
    "team": "Rogue Squadron",
-   "release": "2060 Sprint 1",
+   "release": "2080 Sprint 2",
    "stories": [
       {
-         "number": "236570 + 330393",
-         "description": "Analytics!",
-         "notes": "Newly renamed and laid out Analytics Page w/New Metrics",
+         "number": "250530",
+         "description": "Manage Country Audit",
+         "notes": "Show last edited by and date",
          "links": [
             {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
-               "target": "SAMS_L6",
-               "description": "Analytics Page"
-            },
-            {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
-               "target": "SAMS_L6",
-               "description": "API Metrics"
-            },
-            {
-               "url": "https://sams-sa.gslb.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
-               "target": "SAMS_LP",
-               "description": "Production Analytics"
+               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!dataEntry/manageCountries",
+               "target": "SAMS_L1",
+               "description": "Manage Countries"
             }
          ]
       },
       {
-         "number": "344073",
-         "description": "Device Dump!",
-         "notes": "Consolidate device readings information",
+         "number": "382772",
+         "description": "Improve Analytics",
+         "notes": "<ul><li>Per org counts/tooltip</li><li>Week/Month start/end correction</li></ul>",
          "links": [
             {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
-               "target": "SAMS_L6",
+               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
+               "target": "SAMS_L1",
+               "description": "Analytics"
+            }
+         ]
+      },
+      {
+         "number": "403700",
+         "description": "Device Health Readings",
+         "notes": "Sort on collect timestamp (only)",
+         "notes": "<ul><li>Sort on collect timestamp</li><li>Remove sort from all other columns</li></ul>",
+         "links": [
+            {
+               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
+               "target": "SAMS_L1",
                "description": "Device Health"
+
             }
          ]
       },
       {
-         "number": "334558",
-         "description": "NIST Download Links",
-         "notes": "Download icon next to NIST download links",
+         "number": "384869",
+         "description": "Piston App - Phase 3",
+         "notes": "<ul><li>Device/CONS/ULD Validation</li><li>Device/Template caching/refresh</li><li>Skip</li></ul>",
          "links": [
             {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!admin/manageHardware",
-               "target": "APP_L6",
-               "description": "Manage H/W - List & Details"
-            },
-            {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!deviceManagement/manageDevices",
-               "target": "SAMS_L6",
-               "description": "Manage Devices (filter = SenseAwareIT + All Devices)"
+               "url": "http://localhost:2443/web/wsawui/pistondev.html",
+               "target": "PISTON_LOCAL",
+               "description": "Piston App"
             }
          ]
       },
       {
-         "number": "323921",
-         "description": "Global Search!",
-         "notes": "Search for multiple items in global search",
-         "links": [
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!monitor/dashboard",
-               "target": "APP_L6",
-               "description": "Global Search"
-            }
-         ]
+         "description": "Other Stories",
+         "notes": "<ul><li>Spike to integrate FlightAware &amp; FlightRadar</li><li>Spike to integrate NetSuite RMA/Help Tickets</li><li>Get CON Scan/Flight Info from FedEx Trk#</li><li>Improve API Error messages</li></ul>"
       }
    ]
 }

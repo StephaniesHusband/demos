@@ -40,6 +40,10 @@
    justify-content: center;
    margin: 0 15px;
 }
+.story-notes ul {
+   text-align: left;
+   font-size: 1em;
+}
 .story > * {
    padding: 5px;
 }

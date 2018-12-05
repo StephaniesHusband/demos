@@ -28,7 +28,7 @@
       });
 
       $(".img-yoda").click(function() {
-         $(".complete").toggle();
+         $(".complete").fadeToggle("slow");
       });
    });
 })();
