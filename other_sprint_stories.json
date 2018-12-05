@@ -1,0 +1,47 @@
+{
+   "team": "Rogue Squadron",
+   "release": "2080 Sprint 1",
+   "stories": [
+      {
+         "number": "335458",
+         "description": "Manage Hardware Audit",
+         "notes": "Show last edited by, date &amp; action taken",
+         "links": [
+            {
+               "url": "https://sabase.idev.fedex.com:2443/web/wsawui/index.html#!admin/manageHardware",
+               "target": "APP_L1",
+               "description": "Manage Hardware"
+            }
+         ]
+      },
+      {
+         "number": "381094",
+         "description": "Improve Device Health",
+         "notes": "<ul><li>Org Search Autocomplete</li><li>Chart Subchart</li><li>Refresh</li><li>Miscellaneous Fixes</li></ul>",
+         "links": [
+            {
+               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
+               "target": "SAMS_L1",
+               "description": "Analytics"
+            }
+         ]
+      },
+      {
+         "number": "403700",
+         "description": "Airport Elevation",
+         "notes": "Show/Update&nbsp;<em>Optional</em>&nbsp;airport elevation ",
+         "links": [
+            {
+               "url": "https://sams-base-sa.ute.fedex.com/web/sams/index.html#!dataEntry/manageAirports",
+               "target": "SAMS_L1",
+               "description": "Manage Airports"
+
+            }
+         ]
+      },
+      {
+         "description": "Other Stories",
+         "notes": "<ul><li>Sped up Manage Organizations</li></ul>"
+      }
+   ]
+}
