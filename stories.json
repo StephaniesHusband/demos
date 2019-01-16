@@ -3,7 +3,7 @@
    "release": "2100 Sprint 1",
    "stories": [
       {
-         "number": "250530",
+         "number": "424768",
          "description": "Flight Trigger",
          "notes": "Capture settings for flight trigger",
          "links": [
@@ -15,7 +15,7 @@
          ]
       },
       {
-         "number": "382772",
+         "number": "421726",
          "description": "SAMS: Top 25 Orgs",
          "notes": "Display Top 25 Orgs",
          "links": [
