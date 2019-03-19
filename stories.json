@@ -1,28 +1,76 @@
 {
    "team": "Rogue Squadron",
-   "release": "2100 Sprint 1",
+   "release": "2120 Sprint 1",
    "stories": [
+
       {
-         "number": "424768",
-         "description": "Flight Trigger",
-         "notes": "Capture settings for flight trigger",
+         "number": "449961",
+         "description": "Flight Trigger Tile on Dashboard",
          "links": [
             {
-               "url": "https://sabase.idev.fedex.com:2443/web/wsawui/index.html#!create/manageTriggers",
-               "target": "APP_L1",
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!dashboard",
+               "target": "APP_L6",
+               "description": "Dashboard"
+            }
+         ]
+      },
+      {
+         "number": "466247",
+         "description": "Arrival Delay",
+         "links": [
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "target": "SAMS_L6",
+               "description": "Journey Details"
+            }
+         ]
+      },
+      {
+         "number": "472453",
+         "description": "Show Flight info in information icon",
+         "links": [
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "target": "APP_L6",
+               "description": "Journey Details"
+            }
+         ]
+      },
+      {
+         "number": "472379",
+         "description": "Update Cancel or Delayed after processing",
+         "notes": "Call will be made immediately upon journey process to pick up any immediate delay notices"
+      },
+      {
+         "number": "472395",
+         "description": "Add updated flight info to delayed or departed flights",
+         "links": [
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "target": "APP_L6",
+               "description": "Journey Details"
+            }
+         ]
+      },
+      {
+         "number": "456939",
+         "description": "Flight Trigger to Monitor Details CSV and PDF Report",
+         "links": [
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "target": "APP_L6",
                "description": "Manage Triggers"
             }
          ]
       },
       {
-         "number": "421726",
-         "description": "SAMS: Top 25 Orgs",
-         "notes": "Display Top 25 Orgs",
+         "number": "468954",
+         "description": "Validate that an approved flight is selected",
          "links": [
             {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
-               "target": "SAMS_L6",
-               "description": "Analytics"
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!create/journey/356633/1",
+               "target": "APP_L6",
+               "description": "Create Journey"
             }
          ]
       }
