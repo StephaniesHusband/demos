@@ -1,78 +1,84 @@
 {
    "team": "Rogue Squadron",
-   "release": "2120 Sprint 1",
+   "release": "2120 Sprint 2",
    "stories": [
-
       {
-         "number": "449961",
-         "description": "Flight Trigger Tile on Dashboard",
+         "number": "467594",
+         "description": "SAMS: Add Firmware Version column",
          "links": [
             {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!dashboard",
-               "target": "APP_L6",
-               "description": "Dashboard"
-            }
-         ]
-      },
-      {
-         "number": "466247",
-         "description": "Arrival Delay",
-         "links": [
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
                "target": "SAMS_L6",
-               "description": "Journey Details"
+               "description": "Device Health"
             }
          ]
       },
       {
-         "number": "472453",
-         "description": "Show Flight info in information icon",
+         "number": "380501",
+         "description": "SAMS: Add GPS/LBS to 'Last Known Locations'",
          "links": [
             {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
+               "target": "SAMS_L6",
+               "description": "Device Health",
+               "notes": "Filter on '266'; Use Device 'SA000266'"
+            }
+         ]
+      },
+      {
+         "number": "434948",
+         "description": "SAMS: Devices In Use",
+         "links": [
+            {
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
+               "target": "SAMS_L6",
+               "description": "Analytics",
+               "notes": "Continue using 'SA000266'"
+            }
+         ]
+      },
+      {
+         "number": "468754",
+         "description": "SAMS Reports Tab: Tracking Number Query",
+         "links": [
+            {
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!samsManagement/reports",
+               "target": "SAMS_L6",
+               "description": "SAMS Management: Reports"
+            }
+         ]
+      },
+      {
+         "number": "435022",
+         "description": "Email Advisor",
+         "links": [
+            {
+               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!dataEntry/manageOrganizations",
+               "target": "SAMS_L6",
+               "description": "Organizations"
+            },
+            {
+               "description": "Show Sample email"
+            }
+
+         ]
+      },
+      {
+         "number": "496261",
+         "description": "Flight Trigger - Possible Missed Flight",
+         "links": [
+            {
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/358219",
                "target": "APP_L6",
                "description": "Journey Details"
-            }
-         ]
-      },
-      {
-         "number": "472379",
-         "description": "Update Cancel or Delayed after processing",
-         "notes": "Call will be made immediately upon journey process to pick up any immediate delay notices"
-      },
-      {
-         "number": "472395",
-         "description": "Add updated flight info to delayed or departed flights",
-         "links": [
+            },
             {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
-               "target": "APP_L6",
-               "description": "Journey Details"
-            }
-         ]
-      },
-      {
-         "number": "456939",
-         "description": "Flight Trigger to Monitor Details CSV and PDF Report",
-         "links": [
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/356643",
+               "url": "https://sa.test.senseaware.com/web/wsawui/#!create/trigger/495387/1",
                "target": "APP_L6",
                "description": "Manage Triggers"
             }
-         ]
-      },
-      {
-         "number": "468954",
-         "description": "Validate that an approved flight is selected",
-         "links": [
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!create/journey/356633/1",
-               "target": "APP_L6",
-               "description": "Create Journey"
-            }
-         ]
+         ],
+         "notes": "Verbiage change only"
       }
    ]
 }
