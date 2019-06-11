@@ -1,84 +1,59 @@
 {
    "team": "Rogue Squadron",
-   "release": "2120 Sprint 2",
+   "release": "2140 Sprint 2",
    "stories": [
       {
-         "number": "467594",
-         "description": "SAMS: Add Firmware Version column",
+         "number": "536580",
+         "description": "Link Transporter &amp; ICAO for Flight Triggers",
          "links": [
             {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
-               "target": "SAMS_L6",
-               "description": "Device Health"
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!create/journey/156558/1",
+               "target": "Local_L1",
+               "description": "Template w/Flight Trigger",
+               "notes": "Southwest - SWA"
+            },
+            {
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!create/journey/158299/1",
+               "target": "Local_L1",
+               "description": "Select Transport for Flight Trigger",
+               "notes": "Delta - DAL"
             }
          ]
       },
       {
-         "number": "380501",
-         "description": "SAMS: Add GPS/LBS to 'Last Known Locations'",
+         "number": "542819",
+         "description": "Convert FlightAware times to HH:MM",
          "links": [
             {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/deviceHealth",
-               "target": "SAMS_L6",
-               "description": "Device Health",
-               "notes": "Filter on '266'; Use Device 'SA000266'"
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!details/journey/162694",
+               "target": "Local_L1",
+               "description": "Journey Details",
+               "notes": "Events 2-4"
             }
          ]
       },
       {
-         "number": "434948",
-         "description": "SAMS: Devices In Use",
+         "number": "536789",
+         "description": "Manage My Org - Device Ping Caution",
          "links": [
             {
                "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!analysisCenter/shipmentAnalytics",
-               "target": "SAMS_L6",
-               "description": "Analytics",
-               "notes": "Continue using 'SA000266'"
+               "target": "Local_L1",
+               "description": "Manage My Org",
+               "notes": "Device Settings -> Edit mode -> Select any device"
             }
          ]
       },
       {
-         "number": "468754",
-         "description": "SAMS Reports Tab: Tracking Number Query",
+         "number": "458082 &amp; 534913",
+         "description": "Enhance Define Route Waypoints",
          "links": [
             {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!samsManagement/reports",
-               "target": "SAMS_L6",
-               "description": "SAMS Management: Reports"
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!create/trigger/306730/1",
+               "target": "Local_L1",
+               "description": "Edit Route"
             }
          ]
-      },
-      {
-         "number": "435022",
-         "description": "Email Advisor",
-         "links": [
-            {
-               "url": "https://sams-test-sa.sac.fedex.com/web/sams/index.html#!dataEntry/manageOrganizations",
-               "target": "SAMS_L6",
-               "description": "Organizations"
-            },
-            {
-               "description": "Show Sample email"
-            }
-
-         ]
-      },
-      {
-         "number": "496261",
-         "description": "Flight Trigger - Possible Missed Flight",
-         "links": [
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!details/journey/358219",
-               "target": "APP_L6",
-               "description": "Journey Details"
-            },
-            {
-               "url": "https://sa.test.senseaware.com/web/wsawui/#!create/trigger/495387/1",
-               "target": "APP_L6",
-               "description": "Manage Triggers"
-            }
-         ],
-         "notes": "Verbiage change only"
       }
    ]
 }
