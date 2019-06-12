@@ -9,7 +9,7 @@
 <body>
    <template id="story-card">
       <div class="story" style="width: 400px;" :class="{ done: isDone }" @click="markDone">
-         <h1>{{lowerCaseDescription}}</h1>
+         <h1 v-html="lowerCaseDescription"></h1>
          <ul v-for="(link,index) in story.links" :link="link" :index="index" :key="index">
             <li>
                <a :href="link.url" :target="link.target" v-html="link.description"></a>
