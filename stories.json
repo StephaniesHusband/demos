@@ -10,13 +10,13 @@
                "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!create/journey/156558/1",
                "target": "Local_L1",
                "description": "Template w/Flight Trigger",
-               "notes": "Southwest - SWA"
+               "notes": "Use Southwest"
             },
             {
-               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!create/journey/158299/1",
+               "url": "http://roguesquadron.senseaware.com:2443/web/wsawui/development.html#!create/journey",
                "target": "Local_L1",
-               "description": "Select Transport for Flight Trigger",
-               "notes": "Delta - DAL"
+               "description": "Select Transport when add Flight Trigger",
+               "notes": "Use Southwest"
             }
          ]
       },
